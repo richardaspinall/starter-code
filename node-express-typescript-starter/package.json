@@ -5,11 +5,13 @@
   "main": "src/index.ts",
   "scripts": {
     "test": "jest $npm_config_file",
-    "start:dev": "nodemon"
+    "start:dev": "nodemon",
+    "lint": "eslint . --ext .ts"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "eslint-plugin-import": "^2.29.1",
     "express": "^4.18.2"
   },
   "devDependencies": {
